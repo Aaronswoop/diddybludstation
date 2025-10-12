@@ -82,6 +82,8 @@
     clothingVisuals:
       gloves:
       - state: equipped-HAND-sealed
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
 - type: entity
   parent: ClothingHandsBase
   id: ClothingModsuitGauntletsParamedic
@@ -117,6 +119,8 @@
     clothingVisuals:
       gloves:
       - state: equipped-HAND-sealed
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
   - type: Armor
     modifiers:
       coefficients:
@@ -160,6 +164,8 @@
     clothingVisuals:
       gloves:
       - state: equipped-HAND-sealed
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
   - type: Armor
     modifiers:
       coefficients:
@@ -206,6 +212,8 @@
       - state: equipped-HAND-sealed
       gloves-resomi:
       - state: equipped-HAND-sealed-resomi
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
   - type: Armor
     modifiers:
       coefficients:
@@ -252,6 +260,8 @@
       - state: equipped-HAND-sealed
       gloves-resomi:
       - state: equipped-HAND-sealed-resomi
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
   - type: Armor
     modifiers:
       coefficients:
@@ -297,6 +307,8 @@
     clothingVisuals:
       gloves:
       - state: equipped-HAND-sealed
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
   - type: Armor
     modifiers:
       coefficients:
@@ -348,6 +360,8 @@
       - state: equipped-HAND-sealed
       gloves-resomi:
       - state: equipped-HAND-sealed-resomi
+      gloves-vox:
+      - state: equipped-HAND-sealed-vox
   - type: Armor
     modifiers:
       coefficients:
