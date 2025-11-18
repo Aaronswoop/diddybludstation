@@ -58,7 +58,7 @@
 # SPDX-FileCopyrightText: 2025 gluesniffler <linebarrelerenthusiast@gmail.com>
 # SPDX-FileCopyrightText: 2025 username <113782077+whateverusername0@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 whateverusername0 <whateveremail>
-#
+# SPDX-FileCopyrightText: 2025 FloraMillhouse <floramillhouseinquires@gmail.com>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
@@ -134,8 +134,8 @@
         ruins: !type:GridSpawnGroup
           hide: true
           nameGrid: true
-          minCount: 4
-          maxCount: 8
+          minCount: 3 #Ratbite
+          maxCount: 4 #Ratbite
           stationGrid: false
           paths:
           - /Maps/Ruins/abandoned_outpost.yml
@@ -149,14 +149,15 @@
           - /Maps/Ruins/old_ai_sat.yml
           - /Maps/Ruins/ruined_prison_ship.yml
           - /Maps/Ruins/syndicate_dropship.yml
+          - /Maps/_BRatBite/Ratbite_Original/Ruins/syndicateoutpost.yml #Ratbite, TODO: fix that annoying ass file directory
           - /Maps/Ruins/whiteship_ancient.yml
           - /Maps/Ruins/whiteship_bluespacejumper.yml
           - /Maps/Ruins/wrecklaimer.yml
           - /Maps/Ruins/displaced_telescience.yml
-          - /Maps/Shuttles/mining.yml
+          - /Maps/Shuttles/mining.yml #Ratbite
         wrecks: !type:DungeonSpawnGroup
           minimumDistance: 150
-          maximumDistance: 300
+          maximumDistance: 450 #Ratbite
           stationGrid: false
           minCount: 12
           maxCount: 16
