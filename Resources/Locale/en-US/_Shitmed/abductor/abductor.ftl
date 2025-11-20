@@ -16,7 +16,7 @@ abductors-gizmo-restricted-1 = You spin the gizmo in your hand.
 abductors-gizmo-restricted-2 = You have no idea how this thing works.
 
 abductors-silencer-restricted-1 = You prick your finger with the tip. It stings.
-abductors-silencer-restricted-2 = You toss it into the air. You're a dumbass.
+abductors-silencer-restricted-2 = You toss it into the air. Idiot.
 
 abductors-gun-restricted-1 = You try to press the trigger, but your finger doesn't fit.
 abductors-gun-restricted-2 = You don't feel glorp enough to use this.
