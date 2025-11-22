@@ -168,7 +168,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitAncient
 
-# Ratbite additions, veteran larp
+# Ratbite additions, veteran larp, tider pants
 - type: loadout
   id: MercJumpsuit
   effects:
@@ -192,6 +192,17 @@
     proto: GreyTider
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryTurtleneckMercenary
+
+- type: loadout
+  id: ClothingUniformJumpsuitTiderPants
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GreyTider
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTiderPants
+- !type:RoleTimeRequirement
+  role: JobPassenger
+  time: 72000 #20 hrs, fun mantle for the most experienced greytiders
 
 # Neck
 - type: loadout
