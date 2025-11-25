@@ -667,7 +667,19 @@
       tableId: HeavierAntagTable
     minMaxEventTiming:
       min: 300
+      max: 1000
+
+- type: entity
+  id: HeavierAntagStationScheduler #used for SqueakRat, controls things like HereticMidround and SleeperAgents.
+  parent: BaseGameRule
+  components:
+  - type: BasicStationEventScheduler
+    scheduledGameRules: !type:NestedSelector
+      tableId: HeavierAntagTable
+    minMaxEventTiming:
+      min: 300
       max: 1200
+
 
 - type: entity
   id: CalmerStationEventScheduler #used for SqueakRat, controls station events.
@@ -677,7 +689,7 @@
     scheduledGameRules: !type:NestedSelector
       tableId: BasicCalmEventsTable
     minMaxEventTiming:
-      min: 200
-      max: 600
+      min: 300
+      max: 700
 #Squeakrat end
 #Ratbite end
