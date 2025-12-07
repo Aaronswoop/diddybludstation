@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitbarberuniform
+  name: barber's uniform
+  description: the uniform that belongs to the guy who makes you bald.
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Clothing/Uniforms/barber.rsi
+  - type: Clothing
+    sprite: _BRatBites/Clothing/Uniforms/barber.rsi

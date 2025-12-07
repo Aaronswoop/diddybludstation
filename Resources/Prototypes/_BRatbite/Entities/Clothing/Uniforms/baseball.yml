@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitbatter
+  name: Batter's uniform
+  description: PURIFICATION IN
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Clothing/Uniforms/baseball.rsi
+  - type: Clothing
+    sprite: _BRatBites/Clothing/Uniforms/baseball.rsi

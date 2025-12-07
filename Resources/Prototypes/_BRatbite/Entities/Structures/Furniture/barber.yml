@@ -1,0 +1,14 @@
+- type: entity
+  parent: SeatBase
+  name: Barber's Chair
+  id: Redchair
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Structures/Furniture/barberchair.rsi
+    state: redchair
+  - type: Anchorable
+  - type: Transform
+    anchored: true
