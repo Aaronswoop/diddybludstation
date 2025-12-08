@@ -93,7 +93,6 @@
         prob: 0.3
       - id: Flare
         prob: 0.3
-      # Lavaland Change Start
       - id: WeaponProtoKineticAccelerator
       - id: OreBag
       - id: Pickaxe
@@ -103,5 +102,4 @@
       - id: ClothingMaskGasExplorer
       - id: MineralScanner
       - id: FlashlightSeclite
-      # TODO: bluespace shelter capsule
-      # Lavaland Change End
+      - id: WeaponGrapplingGun
