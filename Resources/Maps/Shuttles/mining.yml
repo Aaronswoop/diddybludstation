@@ -1,16 +1,16 @@
 meta:
   format: 7
-  category: Map
+  category: Grid
   engineVersion: 260.2.0
   forkId: ""
   forkVersion: ""
-  time: 12/07/2025 23:50:30
+  time: 12/08/2025 03:51:59
   entityCount: 185
-maps:
-- 27
+maps: []
 grids:
 - 181
-orphans: []
+orphans:
+- 181
 nullspace: []
 tilemap:
   0: Space
@@ -22,25 +22,13 @@ tilemap:
 entities:
 - proto: ""
   entities:
-  - uid: 27
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
   - uid: 181
     components:
     - type: MetaData
       name: NT-Reclaimer
     - type: Transform
       pos: 2.2710133,-2.4148211
-      parent: 27
+      parent: invalid
     - type: MapGrid
       chunks:
         -1,0:
@@ -823,9 +811,17 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ComputerSalvageJobBoard
+- proto: ComputerSalvageExpedition
   entities:
   - uid: 94
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,5.5
+      parent: 181
+- proto: ComputerSalvageJobBoard
+  entities:
+  - uid: 134
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -837,14 +833,6 @@ entities:
     components:
     - type: Transform
       pos: -2.5,6.5
-      parent: 181
-- proto: ComputerShuttleMiningLavaland
-  entities:
-  - uid: 134
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -1.5,5.5
       parent: 181
 - proto: CrateFunATV
   entities:
@@ -990,6 +978,13 @@ entities:
     components:
     - type: Transform
       pos: -3.5,-5.5
+      parent: 181
+- proto: HolopadLongRange
+  entities:
+  - uid: 27
+    components:
+    - type: Transform
+      pos: -2.5,3.5
       parent: 181
 - proto: LockerSalvageSpecialist
   entities:
