@@ -33,7 +33,6 @@
 
 using System.Linq;  // goob - intermap transmitters
 using Content.Goobstation.Shared.Communications; // goob - intermap transmitters
-using Content.Goobstation.Shared.Loudspeaker.Events; // goob - loudspeakers
 using Content.Server.Administration.Logs;
 using Content.Server.Chat.Systems;
 using Content.Server._EinsteinEngines.Language;
