@@ -18,7 +18,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
     shoes: ClothingShoesBootsJackFilled
-    outerClothing: ClothingOuterVestWebEliteCentcomm
     head: ClothingHeadHatCentcomcap
 
 - type: startingGear

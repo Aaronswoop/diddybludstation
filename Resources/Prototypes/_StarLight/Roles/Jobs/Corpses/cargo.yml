@@ -29,7 +29,7 @@
     shoes: ClothingShoesBootsSalvage
     gloves: ClothingHandsGlovesFingerless
     belt: ClothingBeltUtility
-    pocket1: RadioHandheldExpedition
+  # pocket1: RadioHandheldExpedition Bevv's reckless quickmerge build error squashing
 
 - type: startingGear
   id: QuartermasterCorpseGear
