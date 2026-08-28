@@ -13,6 +13,7 @@
     ClothingUniformJumpskirtCentcomPencilSkirt: 3
     ClothingUniformJumpsuitCentcomAgent: 3
     ClothingUniformJumpsuitCentcomFormal: 3
+    ClothingOuterWinterCentcomArmored: 1 # Ratbite start
     ClothingUniformJumpskirtCentcomFormalDress: 3
     ClothingUniformJumpsuitCasualCentcom: 3 # Goobstation
     ClothingHeadHatCentcom: 3
@@ -23,13 +24,19 @@
     ClothingOuterCoatExpensive: 1
     ClothingOuterArmoredJacketCentralCommand: 2
     ClothingNeckScarfStripedCentcom: 3
-    ClothingNeckCloakCentcom: 3
+    ClothingOuterArmoredFormalJacketCentralCommand: 1 #Ratbite
+    ClothingNeckRatbiteCloakCentcom: 3
+    ClothingNeckRatbiteFormalCloakCentcom: 3 #Ratbite end
     ClothingNeckCloakHighCommand: 3
     ClothingNeckCloakHighCommandCape: 2
     ClothingNeckCloakCentComPoncho: 3
     ClothingNeckMantleEpaulettes: 1
   contrabandInventory:
     ClothingUniformJumpsuitGoldenLiaison: 2
+    ClothingOuterArmorCentcommCarapace: 2 #Ratbite start
+    ClothingHeadHatDirCap: 2
+    ClothingUniformJumpskirtCentcomDirector: 2
+    ClothingUniformJumpsuitCentcomDirector: 2 #Ratbite end
     ClothingNeckCloakGoldenCentComm: 2
     ClothingHeadHatGoldCentcom: 2
     ToyFigurineCaptain: 1

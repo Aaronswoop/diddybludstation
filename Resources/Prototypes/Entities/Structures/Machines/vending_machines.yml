@@ -551,7 +551,6 @@
   - type: Rotatable
     rotateWhileAnchored: false
     rotateWhilePulling: true
-
 - type: entity
   parent: VendingMachine
   id: VendingMachineCola
@@ -1091,7 +1090,7 @@
     pack: NanoMedPlusInventory
     offState: off
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/medical.rsi
+    sprite: Structures/Machines/VendingMachines/medivend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2185,12 +2184,14 @@
     offState: off
     brokenState: broken
     normalState: normal-unshaded
+    denyState: deny-unshaded
+    ejectState: eject-unshaded
   - type: DatasetVocalizer
     dataset: JaniDrobeAds
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/janidrobe.rsi
+    sprite: _EinsteinEngines/Structures/Machines/VendingMachines/janidrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2207,6 +2208,11 @@
     color: "#6927C5"
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
+  - type: Transform # Rb start
+    noRot: false
+  - type: Rotatable
+    rotateWhileAnchored: false
+    rotateWhilePulling: true # Rb end
 
 - type: entity
   parent: VendingMachine

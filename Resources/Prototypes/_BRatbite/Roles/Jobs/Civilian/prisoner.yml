@@ -14,7 +14,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitPrisoner
     shoes: ClothingShoesColorBlack
-    ears: ClothingHeadsetGrey
+    ears: ClothingHeadsetPrison
     id: PrisonerIDCard
 
 - type: job
