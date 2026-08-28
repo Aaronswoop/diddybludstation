@@ -1,6 +1,6 @@
 - type: entity
   name: kanabou
-  parent: BaseItem
+  parent: [ BaseItem, BaseSyndicateContraband ]
   id: Kanabou
   description: The classic oni weapon, for those that forgo subtlety.
   components:
