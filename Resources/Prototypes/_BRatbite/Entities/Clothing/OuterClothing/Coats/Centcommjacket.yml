@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase, BaseCentcommContraband ]
+  id: ClothingOuterArmoredFormalJacketCentralCommand
+  name: central command formal jacket
+  description: A formal green coat-like jacket accented with gilded shoulder armor and a high collar.
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Clothing/OuterClothing/Coats/centcom_jacket.rsi
+  - type: Clothing
+    sprite: _BRatBites/Clothing/OuterClothing/Coats/centcom_jacket.rsi

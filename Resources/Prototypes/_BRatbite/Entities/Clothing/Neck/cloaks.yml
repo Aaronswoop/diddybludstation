@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRatbiteCloakCentcom
+  name: central commander's cloak
+  description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Clothing/Neck/Cloaks/centcomcloak.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRatbiteFormalCloakCentcom
+  name: central commander's Formal cloak
+  description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real. now with an added feather for.. robustness.
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Clothing/Neck/Cloaks/centcomcloakformal.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
